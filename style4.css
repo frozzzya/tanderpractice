@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+
+body {
+
+  margin:0px;}
+
+
+
+
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+.container {
+  align-items: center;
+	display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 15px;
+  justify-content: space-between;
+  background-color: aliceblue;
+
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+	width: 370px;
+}
+
+.containertitle {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+.containertext {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+
+
+.header {
+  width: 1829px;
+  height: 150px;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  padding: 32px 140px;
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+padding-top: 35px;
+padding-left:45px;
+}
+
+.container_header {
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  margin-left: -10px;
+  margin-right: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+
+.jsd {
+  display: flex;
+  justify-content: center;
+}
+
+.jsd2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.jsd3 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.main {
+  background-color: rgb(233, 233, 233);
+  background-size: cover;
+  margin: 0px -15px -10px -10px;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.subtitle {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0px;
+  padding-left: 180px;
+
+}
+
+.kill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 200px;
+  font-family: "Anonymous Pro", sans-serif;
+  src: url(fonts/AnonymousPro-Regular.ttf);
+  font-weight: 700;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(36, 36, 36);
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+
+}
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1071px;
+  overflow: hidden;
+  font-family: Arial;
+  margin-bottom: 100px;
+  margin-top:10px;
+  padding-top: 50px;
+
+
+  
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #333;
+  
+  
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  background-color: #333;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.foot-page{
+  background-color: rgb(219, 219, 219);
+  margin-top: 100px;
+  background-size: 100%;
+  border: 1px solid rgb(206, 206, 206);
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .slideshow {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    margin: 0;
+}
+.slideshow-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: slideanim 12s infinite;
+    pointer-events: none;
+}
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img {
+    animation-delay: 0;
+}
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img {
+    animation-delay: 5s;
+}
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img {
+    animation-delay: 10s;
+}
+.slideshow-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 40s infinite;
+}
+.slideshow-item-text {
+    max-width: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 20px 30px;
+    font-family: Verdana, sans-serif;
+}
+.slideshow-item-text h5 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    color: #BFE2FF;
+}
+.slideshow-item-text p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+@keyframes slideanim {
+    12.5%{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    25%{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    37.5%{
+        opacity: 0;
+    }
+}
+@keyframes zoom {
+    50%{
+        transform: scale(1.3);
+    }
+}
+@media screen and (max-width: 1100px){
+    .slideshow-item-text{
+        max-width: 75%;
+    }
+}
+@media screen and (max-width: 456px){
+    .slideshow-item-text {
+        bottom: 0;
+        left: 0;
+        max-width: 100%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 18px;
+    }
+    .slideshow-item-text p {
+        font-size: 13px;
+    }
+}
+
+.knopka {
+  border: 0px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.knopka:hover {
+  vertical-align: middle;
+}
+
+/* Элемент меняет цвет во время нажатия на доли секунд.  */
+.knopka:active {
+  vertical-align: middle;
+  color: #969696;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {background-color: rgb(233, 233, 233); overflow-x: hidden; font-family: roboto; -webkit-font-smoothing: antialiased; margin-bottom: 0px;}
+.flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  flex-direction: row; -webkit-justify-content: flex-start; justify-content: flex-start;}
+
+.slider-wrapper div {position: relative;}
+.slider-wrapper {margin-top: 5vw;  margin-left: 11vw;}
+.slide-image {height: 24vw;}
+.slide-image img {width: 24vw; cursor: pointer;}
+.slide-content {width: 25vw; color: #fff; padding:3vw 18vw 3vw 9vw;}
+.slide-date {color: #0a8acb; font-size: 1.1vw; font-weight: 400; letter-spacing: 0.1vw; padding-bottom: 1.4vw;}
+.slide-title {font-size: 1.2vw; font-weight: 400; letter-spacing: 0.1vw; line-height: 1.55vw; padding-bottom: 1.8vw;}
+.slide-text {font-size: 0.80vw; line-height: 1.2vw; opacity: 0.8; padding-bottom: 4vw;}
+.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 0.9vw;}
+.slide-bullet {width: 0.5vw; height: 0.5vw; background-color: #0b8bcc; border-radius: 200%; position: relative; margin-left: 1.2vw;}
+.slide-nav {margin-left: 64vw; margin-top: -5.5vw;}
+
+div.overlay-blue {width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s ease all;}
+div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5); background-size: 100%; padding-bottom: 1000px;}
+
+.arrows{width: 3.5vw; margin-top: -5.8vw; margin-left: 72vw; position: relative;}
+.arrow {display: inline-block; position: absolute; width: 1.2vw; height: 1.2vw; background: transparent; text-indent: -9999px; border-top: 0.15vw solid #fff; border-left: 0.15vw solid #fff; transition: all .1s ease-in-out; text-decoration: none; color: transparent;
+}
+.arrow:hover {border-color: #0A8ACB; border-width: 0.25vw;
+}
+.arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(45deg);}
+.arrow.prev {transform: rotate(-45deg); left: 0;}
+.arrow.next {transform: rotate(135deg); right: 0;}
+
+.df {
+  margin: 0px;
+  background-color: #333;
+}
